@@ -1,0 +1,18 @@
+header{
+    background-color:gray;
+    padding:10px;
+}
+section{
+    background-color: #D9EEE1;
+    padding:10px;
+    font-family: calibri, sans-serif;
+}
+footer{
+    background-color: gray;
+    padding:10px;
+    color:white;
+    font-size:20px;
+}
+body{
+    margin:0;
+}

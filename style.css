@@ -1,0 +1,16 @@
+section{
+    background-color: lightgray;
+    padding: 10px;
+    font-family: calibri, sans-serif;
+    color:blue;
+    margin:10px;
+}
+article{
+    background-color:white;
+    color:deepskyblue;
+    padding: 10px;
+    margin:10px;
+}
+h3,h2{
+    color:goldenrod;
+}

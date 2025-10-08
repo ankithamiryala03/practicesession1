@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0113)http://localhost:63342/ankithha/profile%20weebsite.html?_ijt=81iuosfv5aqe73v4juo3b9a7h7&_ij_reload=RELOAD_ON_SAVE -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+
+    
+    <title>profile website</title>
+    <style>
+        body{
+            font-family: calibri, sans-serif;
+            background-color: #D9EEE1;
+        }
+        img{
+            border-radius:50%;
+            font-family:calibri, sans-serif;
+            background-color:#D9EEE1;
+        }
+            div{
+                background-color:lightskyblue;
+                padding:10px ;
+                border-radius:10px;
+                margin:10px;
+
+            }
+
+            table{
+                width:100%;
+                text-align: center;
+
+            }
+            th{
+                background-color:lightpink;
+                color:black;
+                box-shadow:0 0 10px black;
+
+            }
+    </style>
+
+
+
+<!---Profile Data--->
+<div>
+    <h2>Profile Data</h2>
+<table>
+    <tbody><tr>
+        <td>
+            <img src="./profile website_files/photo-2.jpeg" width="200" height="200">
+        </td>
+        <td>
+            <h2>ANKITHA MIRYALA</h2>
+            <h4>+91-7386819510</h4>
+            <p>ankithamiryala2005@gmail.com</p>
+        </td>
+    </tr>
+</tbody></table>
+</div>
+<!---biographfy-->
+<div>
+    <h2>Bio</h2>
+    <p>my name is <b><i>Ankitha</i></b> i'm currently studying btech degree in<b>SREE DATTHA INSTITUTE OF ENGINEEING AND SCIENCE</b> college my department name is <b>COMPUTER SCIENCE ANDD ENGINEEING</b>.i have learnt new skills which is  is mandtory for engineeing students to get a good job .c language is basic language and everyone should learn first basics only then start advance level of coding </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi atque dolorem doloremque ea error eum exercitationem facere facilis fugiat incidunt ipsam iure magnam minima minus molestias, non numquam obcaecati odio possimus quasi quibusdam quisquam reiciendis repellat vel veritatis voluptatem? Alias corporis cumque deleniti dolores error ipsum officia quis voluptatem?</p>
+</div>
+<!--experience-->
+<div>
+    <h2>Experience</h2>
+    <table>
+        <tbody><tr>
+            <th>SNO</th>
+            <th>COMPANY</th>
+            <th>DESIGNATION</th>
+            <th>DURATION</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>TCL</td>
+            <td>software</td>
+            <td>2016-2017</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>HCL-TECH</td>
+            <td>developer</td>
+            <td>2019-2023</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>WIPRO</td>
+            <td>Hardware</td>
+            <td>2023-2025</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>GOOGLE</td>
+            <td>HR</td>
+            <td>2026-2028</td>
+        </tr>
+    </tbody></table>
+</div>
+<!--HOBBIES-->
+<div>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Reading books</li>
+        <li>Listening music</li>
+        <li>writing quotation</li>
+        <li>Dancing</li>
+    </ul>
+</div>
+<!--contact info-->
+<div>
+    <h2>Contact Info</h2>
+    <table>
+        <tbody><tr><td>
+            <h3>ANKITHA MIRYALA</h3>
+                <span>Flat:176/1</span><br>
+                <span>My HOME Avatar</span><br>
+                 <span>Ibramhimpatnam</span><br>
+                <span>RangaReddy</span><br>
+                <span>505302</span><br>
+        </td><td>
+        <iframe src="./profile website_files/embed.html" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </td>
+    </tr></tbody></table>
+</div>
+
+<script>
+(function() {
+  var ws = new WebSocket('ws://' + window.location.host + 
+             '/jb-server-page?reloadMode=RELOAD_ON_SAVE&'+
+             'referrer=' + encodeURIComponent(window.location.pathname));
+  ws.onmessage = function (msg) {
+      if (msg.data === 'reload') {
+          window.location.reload();
+      }
+      if (msg.data.startsWith('update-css ')) {
+          var messageId = msg.data.substring(11);
+          var links = document.getElementsByTagName('link');
+          for (var i = 0; i < links.length; i++) {
+              var link = links[i];
+              if (link.rel !== 'stylesheet') continue;
+              var clonedLink = link.cloneNode(true);
+              var newHref = link.href.replace(/(&|\?)jbUpdateLinksId=\d+/, "$1jbUpdateLinksId=" + messageId);
+              if (newHref !== link.href) {
+                clonedLink.href = newHref;
+              }
+              else {
+                var indexOfQuest = newHref.indexOf('?');
+                if (indexOfQuest >= 0) {
+                  // to support ?foo#hash 
+                  clonedLink.href = newHref.substring(0, indexOfQuest + 1) + 'jbUpdateLinksId=' + messageId + '&' + 
+                                    newHref.substring(indexOfQuest + 1);
+                }
+                else {
+                  clonedLink.href += '?' + 'jbUpdateLinksId=' + messageId;
+                }
+              }
+              link.replaceWith(clonedLink);
+          }
+      }
+  };
+})();
+</script></body></html>

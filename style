@@ -1,0 +1,29 @@
+body{
+    font-family: calibri, sans-serif;
+    background-color: #D9EEE1;
+}
+img{
+    border-radius:50%<style>
+    body{
+    font-family:calibri, sans-serif;
+    background-color:#D9EEE1;
+}
+    div{
+        background-color:lightskyblue;
+        padding:10px ;
+        border-radius:10px;
+        margin:10px;
+
+    }
+
+    table{
+        width:100%;
+        text-align: center;
+
+    }
+    th{
+        background-color:lightpink;
+        color:bla;
+        box-shadow:0 0 10px black;
+
+    }

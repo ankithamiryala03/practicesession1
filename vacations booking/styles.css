@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: calibri, sans-serif;
+    text-align: center;
+}
+ header h1{
+    color: whitesmoke;
+}
+h1{
+    color:black;
+    font-size:80px ;
+}
+header {
+    background: linear-gradient(180deg, deepskyblue, lightpink);
+    padding: 25px;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    color:gray;
+    margin-bottom:10px;
+}
+.button{
+    background-color:lightseagreen;
+    padding:10px ;
+    border: none;
+    margin: 10px;
+    color: whitesmoke;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+nav{
+    background-color: gray;
+    
+
+}
+nav a:hover {
+    background-color: deepskyblue;
+    color: whitesmoke;
+}
+figure{
+    box-shadow: 0 0 10px black;
+    width:300px;
+    display: inline-block;
+    padding: 10px;
+    margin:10px;
+
+}
+figure img{
+    width:100%;
+    padding: 10px;
+    display: inline-block;
+}
+figure figcaption{
+    font-size:25px;
+}
+figure p{
+    font-size: 18px;
+}
+figure h2{
+    margin-top:10px ;
+    font-size: 25px;
+}
+.main-footer{
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.our-packages figure {
+    box-shadow: 0 0 10px black;
+    display: inline-block;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.our-packages figure img{
+    width:100%;
+   padding: 10px;
+}
+.our-packages figure figcaption {
+    font-size: 19px;
+}
+.our-packages figure p{
+    font-size: 18px;
+}
+.home-section{
+    padding: 100px;
+ }

@@ -1,0 +1,19 @@
+body{
+  font-family: calibri, sans-serif;
+}
+div{
+    background-color: lightgray;
+    width: 400px;
+    padding:10px;
+    border-radius:5px;
+    box-shadow:0 0 10px gray;
+}
+input,textarea,select{
+    border-radius:5px;
+    margin: 10px;
+    border: none;
+}
+.button{
+    background-color: black;
+    color: white;
+}
